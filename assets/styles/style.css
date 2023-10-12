@@ -1,0 +1,20 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+  }
+
+  body {
+    display: grid;
+    grid-template: 
+    "header header header" 50px
+    "nav main main" 54rem
+    / 1fr 6fr 1fr
+    ;
+  }
+
+
+  
+
